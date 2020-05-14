@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/hello-world/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/dolores-ea-expedita-quo-sed-quae-sit-amet/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/dicta-nobis-laborum-consequatur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/illo-eum-aut-aut-eum/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/corporis-et-iusto-accusamus-sit-iusto-eos/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/officia-eveniet-pariatur-non-ad-esse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/perspiciatis-nisi-soluta-iusto/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/quaerat-omnis-voluptas-voluptas-aut-molestiae/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/esse-maiores-quidem-quia-expedita-quidem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/nam-sunt-dolorum-exercitationem-ut/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/eos-tenetur-alias-explicabo-neque-numquam-magnam/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/sequi-sit-aut-exercitationem-qui/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/eius-nemo-eaque-eos-aliquid-ducimus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/repellat-ut-est-nobis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/velit-dolore-excepturi-accusamus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/sequi-consequuntur-eos-explicabo-consequatur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/repellat-vel-id-iure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/omnis-incidunt-numquam-aut-nisi-ipsam-quis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/laboriosam-ipsum-ab-porro-ea-reiciendis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/post/asperiores-nam-aperiam-ut-et-ducimus-aliquam-maxime/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://delog-w3layouts.netlify.com/gatsby-blog-demo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/hello-world/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/dolores-ea-expedita-quo-sed-quae-sit-amet/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/dicta-nobis-laborum-consequatur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/illo-eum-aut-aut-eum/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/corporis-et-iusto-accusamus-sit-iusto-eos/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/officia-eveniet-pariatur-non-ad-esse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/perspiciatis-nisi-soluta-iusto/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/quaerat-omnis-voluptas-voluptas-aut-molestiae/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/esse-maiores-quidem-quia-expedita-quidem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/nam-sunt-dolorum-exercitationem-ut/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/eos-tenetur-alias-explicabo-neque-numquam-magnam/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/sequi-sit-aut-exercitationem-qui/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/eius-nemo-eaque-eos-aliquid-ducimus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/repellat-ut-est-nobis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/velit-dolore-excepturi-accusamus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/sequi-consequuntur-eos-explicabo-consequatur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/repellat-vel-id-iure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/omnis-incidunt-numquam-aut-nisi-ipsam-quis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/laboriosam-ipsum-ab-porro-ea-reiciendis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/post/asperiores-nam-aperiam-ut-et-ducimus-aliquam-maxime/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://delog-w3layouts.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
