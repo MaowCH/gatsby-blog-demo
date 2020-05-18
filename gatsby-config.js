@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: `/`,
   siteMetadata: require("./site-meta-data.json"),
   plugins: [
     {
@@ -18,8 +19,8 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        baseUrl: "wp-gatsby",
-        protocol: "http",
+        baseUrl: "wp.letswarp.info",
+        protocol: "https",
         hostingWPCOM: false,
         useACF: true,
         verboseOutput: true,
