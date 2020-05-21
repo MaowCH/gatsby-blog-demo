@@ -1,9 +1,9 @@
 {
-  "title": "My Blog",
+  "title": "สมองบิน",
   "siteUrl": "https://delog-w3layouts.netlify.com/",
   "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
   "home": {
-    "title": "Hi! All",
-    "description": "This is test my blog :)"
+    "title": "หวัดดีทุกคน!",
+    "description": "นี่เป็นบล็อคของผม ยินดีต้อนรับเข้าสู่แก็งค์สมองบินนะ :)"
   }
 }

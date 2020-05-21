@@ -2,16 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from 'gatsby-image'
 
-const PostLink = ({ post }) => (
-  <article className="card ">
+const RecentPost = ({ post }) => (
+  <article className="card-recent-post">
     <Link to={'/post/' +post.wordpress_id}>
     {post.featured_media && post.featured_media.localFile.childImageSharp.resolutions &&
-                        <div className="post-thumbnail2" style={{backgroundImage: `url(${post.featured_media && post.featured_media.localFile.childImageSharp.resolutions.src})`}}>
+                        <div className="recent-post-thumbnail" style={{backgroundImage: `url(${post.featured_media && post.featured_media.localFile.childImageSharp.resolutions.src})`}}>
                         </div>
                     }
+
     </Link>
     <header>
-      <h2 className="post-title">
+      <h2 className="recent-post-title">
         <Link to={'/post/' +post.wordpress_id} className="post-link">
           {post.title}
         </Link>
@@ -20,4 +21,4 @@ const PostLink = ({ post }) => (
     </header>
   </article>
 )
-export default PostLink
+export default RecentPost

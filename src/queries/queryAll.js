@@ -15,27 +15,28 @@ module.exports = `
         
         allWordpressPost {
             edges {
-                node {
-                    id  
-                    slug
-                    status
-                    template
-                    format
-                    title
-                    date
-                    featured_media{
-                        localFile{
-                            childImageSharp{
-                                resolutions(width:500, height: 200){
-                                    src
-                                    width
-                                    height
-                                }
-                            }
-                        }
+              node {
+                id
+                slug
+                status
+                template
+                format
+                title
+                date
+                featured_media {
+                  localFile {
+                    childImageSharp {
+                      resolutions(width: 500, height: 200) {
+                        src
+                        width
+                        height
+                      }
                     }
+                  }
                 }
+                wordpress_id
+              }
             }
-        }
+          }
     }
 `

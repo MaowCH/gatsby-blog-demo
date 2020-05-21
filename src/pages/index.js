@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
+
 
 
 const IndexPage = ({
@@ -28,7 +28,6 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <HeroHeader/>
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
@@ -47,29 +46,30 @@ export const pageQuery = graphql`
       }
     }
 
-    allWordpressPost {
+    allWordpressPost(limit:15) {
       edges {
-          node {
-              id  
-              slug
-              status
-              template
-              format
-              title
-              date
-              featured_media{
-                  localFile{
-                      childImageSharp{
-                          resolutions(width:500, height: 200){
-                              src
-                              width
-                              height
-                          }
-                      }
-                  }
+        node {
+          id
+          slug
+          status
+          template
+          format
+          title
+          date(formatString:"MMMM DD,YYYY"),
+          featured_media {
+            localFile {
+              childImageSharp {
+                resolutions(width: 500, height: 200) {
+                  src
+                  width
+                  height
+                }
               }
+            }
           }
+          wordpress_id
+        }
       }
-  }
+    }
   }
 `

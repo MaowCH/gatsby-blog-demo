@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        baseUrl: "wp.letswarp.info",
+        baseUrl: "https://wp.samongbin.com",
         protocol: "https",
         hostingWPCOM: false,
         useACF: true,

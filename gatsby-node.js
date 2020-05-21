@@ -8,24 +8,25 @@ const postsQuery = `
   allWordpressPost {
     edges {
       node {
-        id  
+        id
         slug
         status
         template
         format
         title
         date
-        featured_media{
-            localFile{
-                childImageSharp{
-                    resolutions(width:500, height: 200){
-                        src
-                        width
-                        height
-                    }
-                }
+        featured_media {
+          localFile {
+            childImageSharp {
+              resolutions(width: 500, height: 200) {
+                src
+                width
+                height
+              }
             }
+          }
         }
+        wordpress_id
       }
     }
   }
@@ -49,10 +50,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
       _.each(result.data.allWordpressPost.edges, edge => {
           createPage({
-              path: `/post/${edge.node.slug}/`,
+              path: `/post/${edge.node.wordpress_id}/`,
               component: slash(postTemplate),
               context: {
-                  id: edge.node.id,
+                  id: edge.node.wordpress_id,
               },
           });
       });

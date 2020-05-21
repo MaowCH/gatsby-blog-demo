@@ -20,12 +20,13 @@ export default ({ children }) => {
       <header className="site-header">
         <div className="site-title">
           <Link to="/">{data.site.siteMetadata.title}</Link>
+          <img src="/assets/icon-web.png" />
         </div>
         <Navigation />
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; 2020 Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <p>&copy; 2020 Samongbin : สมองบิน &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="/contact">JUICE</a></p>
       </footer>
     </div>
   )
