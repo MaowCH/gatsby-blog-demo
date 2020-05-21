@@ -26,6 +26,8 @@ export default function Template({
         <title>{wordpressPost.title} | {siteMetadata.title}</title>
         <meta name="description" content={wordpressPost.metaDescription} />
         <meta name="og:image" content={wordpressPost.featured_media && wordpressPost.featured_media.localFile.childImageSharp.resolutions.src} />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="315" />
       </Helmet>
       <div className="blog-post-container">
         <div className="container-post">
@@ -63,7 +65,7 @@ query currentPostQuery($id: Int!) {
       featured_media{
         localFile{
             childImageSharp{
-                resolutions(width:500, height: 200){
+                resolutions(width: 600, height: 315) {
                     src
                     width
                     height
