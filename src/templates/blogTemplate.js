@@ -25,6 +25,7 @@ export default function Template({
       <Helmet>
         <title>{wordpressPost.title} | {siteMetadata.title}</title>
         <meta name="description" content={wordpressPost.metaDescription} />
+        <meta name="og:image" content={wordpressPost.featured_media && wordpressPost.featured_media.localFile.childImageSharp.resolutions.src} />
       </Helmet>
       <div className="blog-post-container">
         <div className="container-post">
