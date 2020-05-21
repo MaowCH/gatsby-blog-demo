@@ -78,7 +78,7 @@ query currentPostQuery($id: Int!) {
       }
   }
 
-  allWordpressPost(limit: 3) {
+  allWordpressPost(limit: 3,sort:{fields:[date], order:DESC}) {
     edges {
       node {
         id

@@ -152,6 +152,7 @@ a {
 .container-post{
   display: grid;
   grid-column-gap:20px;
+  row-gap: 50px;
   grid-template-areas: 
   "left"
   "right"
@@ -159,7 +160,7 @@ a {
 
 .item-right{
   grid-area: right;
-  margin-top:50px;
+  margin-top:none;
 }
 
 
@@ -331,6 +332,8 @@ and (min-width: 768px) {
 .grids {
   grid-template-columns: 1fr 1fr;
 }
+
+
 }
 @media only screen 
   and (min-width: 1024px) {
@@ -441,7 +444,7 @@ body.light {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 18px;
+  border-radius: 18px 18px 0 0;
   margin-bottom: 18px;
   color: var(--featured-text);
   display: grid;
@@ -458,7 +461,7 @@ body.light {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 18px;
+  border-radius: 18px 18px 0 0;
   color: var(--featured-text);
   display: grid;
   align-content: center;

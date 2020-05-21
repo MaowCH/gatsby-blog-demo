@@ -46,7 +46,7 @@ export const pageQuery = graphql`
       }
     }
 
-    allWordpressPost(limit:15) {
+    allWordpressPost(limit:15,sort:{fields:[date], order:DESC}) {
       edges {
         node {
           id
