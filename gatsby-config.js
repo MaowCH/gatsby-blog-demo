@@ -55,12 +55,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-5249725178843606`
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Delog GatbsyJS Starter`,
