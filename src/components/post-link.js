@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Img from 'gatsby-image'
+
 
 const PostLink = ({ post }) => (
   <article className="card ">

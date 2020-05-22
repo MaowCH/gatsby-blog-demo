@@ -19,7 +19,6 @@ export default function Template({
   .filter(edge => !!edge.node.date) // You can filter your posts based on some criteria
   .map(edge => <RecentPost key={edge.node.id} post={edge.node} />)
 
-
   return (
     <Layout>
       <Helmet>
@@ -46,7 +45,7 @@ export default function Template({
             />
           </article>
           <div className="item-right">
-          <div style="margin-bottom:20px">
+          <div style={{marginBottom:`20px`}}>
           <amp-ad
               layout="responsive"
               width="300"
