@@ -12,8 +12,8 @@ const PostLink = ({ post }) => (
     </Link>
     <header>
       <h2 className="post-title">
-        <Link to={'/post/' +post.wordpress_id} className="post-link">
-          {post.title}
+        <Link to={'/post/' +post.wordpress_id} className="post-link" dangerouslySetInnerHTML={{ __html: post.title }}>
+
         </Link>
       </h2>
       <div className="post-meta">{post.date}</div>
