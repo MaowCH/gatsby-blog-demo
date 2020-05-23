@@ -34,7 +34,7 @@ export default function Template({
           <article className="post">
             
               <div >
-                <h1 className="post-title">{wordpressPost.title}</h1>
+                <h1 className="post-title" dangerouslySetInnerHTML={{ __html: wordpressPost.title }}></h1>
                 <div className="post-meta">{wordpressPost.date}</div>
               </div>
       
