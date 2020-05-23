@@ -31,7 +31,7 @@ const IndexPage = ({
       </Helmet>
       <div className="banner-sponser">
         <amp-ad
-          layout="fixed"
+          layout="responsive"
           width="728"
           height="90"
           type="adsense"
