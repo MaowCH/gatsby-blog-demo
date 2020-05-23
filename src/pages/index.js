@@ -27,7 +27,18 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
       </Helmet>
+      <div className="banner-sponser">
+        <amp-ad
+          layout="fixed"
+          width="728"
+          height="90"
+          type="adsense"
+          data-ad-client="ca-pub-5249725178843606"
+          data-ad-slot="0325136431">
+      </amp-ad>
+      </div>
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}

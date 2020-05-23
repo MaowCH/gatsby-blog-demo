@@ -51,8 +51,14 @@ module.exports = {
       options: {
         // The property ID; the tracking code won't be generated without it. replace with yours
         trackingId:"UA-63578117-4",
-        head: true,
+        head: true,  
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-5249725178843606`
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
