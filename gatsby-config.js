@@ -9,6 +9,7 @@ module.exports = {
   pathPrefix: `/`,
   siteMetadata: require("./site-meta-data.json"),
   plugins: [
+    `gatsby-plugin-sitemap`,    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
