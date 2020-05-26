@@ -28,6 +28,7 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
         <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+        <meta name="google-site-verification" content="OlW-RbCD-HdrD2obgV5_1LLCAhYwKqi9FT8_5tYJI-A" />
       </Helmet>
       <div className="banner-sponser">
         <amp-ad

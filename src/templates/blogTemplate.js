@@ -27,7 +27,8 @@ export default function Template({
         <meta name="og:image" content={wordpressPost.featured_media && wordpressPost.featured_media.localFile.childImageSharp.resolutions.src} />
         <meta property="og:image:width" content="600" />
         <meta property="og:image:height" content="315" />
-        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>        
+        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>     
+        <meta name="google-site-verification" content="OlW-RbCD-HdrD2obgV5_1LLCAhYwKqi9FT8_5tYJI-A" />   
       </Helmet>
       <div className="blog-post-container">
         <div className="container-post">
